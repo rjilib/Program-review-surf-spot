@@ -1,0 +1,17 @@
+[package]
+name = "spotysurf"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+solana-program = "1.10.29"
+borsh = "0.9.3"
+thiserror = "1.0.31"
+spl-associated-token-account = "1.1.2"
+spl-token = "3.5.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
